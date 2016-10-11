@@ -16,7 +16,7 @@ Brightness Control using hotkeys (see hotkeys below)
 ## How do I install it?
 
 1. Get [TamperMonkey](https://tampermonkey.net/) or another userscript manager
-2. Install via GitHub by [clicking here]().
+2. Install via GitHub by [clicking here](https://github.com/skoshy/PlexEXT/raw/master/userscript.user.js).
 
 This script is also cross-posted to [Greasy Fork]()
 

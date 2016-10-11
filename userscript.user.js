@@ -2,9 +2,10 @@
 // @name         PlexEXT
 // @icon         https://www.macupdate.com/images/icons256/27302.png
 // @namespace    skoshy.com
-// @version      0.1
+// @version      0.1.2
 // @description  Enhances Plex
 // @author       Stefan Koshy
+// @updateURL    https://github.com/skoshy/PlexEXT/raw/master/userscript.user.js
 // @match        http*://localhost:32400/*
 // @match        http*://app.plex.tv/web/*
 // @grant        none
