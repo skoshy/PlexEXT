@@ -2,7 +2,7 @@
 // @name         PlexEXT
 // @icon         https://www.macupdate.com/images/icons256/27302.png
 // @namespace    skoshy.com
-// @version      0.1.2
+// @version      0.1.3
 // @description  Enhances Plex
 // @author       Stefan Koshy
 // @updateURL    https://github.com/skoshy/PlexEXT/raw/master/userscript.user.js
@@ -99,6 +99,9 @@ function addGlobalStyle(css, id) {
 }
 
 function initialize() {
+  if (location.hostname == 'localhost' && location.port != '32400')
+  	return;
+  
   // create the tooltip  
   newElements.tooltip = document.createElement('div');
   newElements.tooltip.className = scriptid+'-tooltip';
